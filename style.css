@@ -1,0 +1,47 @@
+body
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+
+
+}
+.meu_texto
+{   
+    font-family: 'Quicksand', sans-serif;
+    animation: anima_titulo 4s forwards;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    color: rgb(39, 5, 5);
+    text-shadow: 5px 5px silver ;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 0;
+    font-family: sans-serif;
+
+}
+.navalha
+{
+    width: 150px;
+    animation: navalha_anima 7s;
+}
+
+@keyframes anima_titulo 
+{
+    100%{
+        max-width: 600px;
+
+    }
+    0%{
+        max-width: 0%;
+    }
+}
+
